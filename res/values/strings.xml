@@ -1,0 +1,129 @@
+<resources>
+	<!-- App text configuration -->
+    <string name="app_name">Ali Pizza Store</string>
+    <string name="app_info">Ali Pizza Store Android App</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="copyright">Ali Pizza Store &#169; 2014 All Rights Reserved</string>
+    <string-array name="main_menu_list">
+        <item >Menu List</item>
+        
+        <item>Invoice</item><item >Orders History</item>
+        <item >Favorites</item>
+    </string-array>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_phone">Your device does not support phone call feature</string>
+    <string name="no_internet">Please, enable internet connection before using this app</string>
+    <string name="category_list">Category List</string>
+    <string name="favorites_category_list">Favorites Category list</string>
+    <string name="search">Search menu</string>
+	<string name="detail">Detail</string>
+	<string name="add">Add this to my order</string>
+	<string name="share_btn">Share this</string>
+	<string name="share">Share</string>
+	<string name="comment">Your comment</string>
+	<string name="post">Post</string>
+	<string name="facebook">Facebook</string>
+	<string name="twitter">Twitter</string>
+	<string name="login_facebook">Login to Facebook</string>
+	<string name="login_twitter">Login to Twitter</string>
+	<string name="select_share">Please select your share</string>
+	<string name="no_name">No Name</string>
+	<string name="connect_twitter">Connected to Twitter as</string>
+	<string name="connect_twitter_failed">Twitter connection failed</string>
+	<string name="delete_twitter_connection">Delete current Twitter connection?</string>
+	<string name="post_to_twitter">Posted to Twitter</string>
+	<string name="post_to_twitter_failed">Post to Twitter failed</string>
+	<string name="post_limit">Post is more than 140 character</string>
+	<string name="post_review">Review posted</string>
+	<string name="connect_facebook_failed">Facebook connection failed</string>
+	<string name="delete_facebook_connection">Delete current Facebook connection?</string>
+	<string name="disconnect_facebook">Disconnecting from Facebook</string>
+	<string name="disconnect_facebook_2">Disconnected from Facebook</string>
+	<string name="connect_facebook">Connected to Facebook as</string>
+	<string name="connect_facebook_2">Connected to Facebook</string>
+	<string name="logout_facebook_failed">Facebook logout failed</string>
+	<string name="post_to_facebook">Posted to Facebook</string>
+	<string name="contact">Contact</string>
+	<string name="callus">Call us</string>
+	<string name="setting">Setting</string>
+	<string name="accounts">ACCOUNT SETTING</string>
+	<string name="support">SUPPORT APP</string>
+	<string name="emailus">Email us</string>
+    <string name="news">News</string>
+    <string name="alert">unable to get content from server</string>
+    <string name="number_order">Number of order: </string>
+    <string name="order">Order</string>
+    <string name="my_order">Invoice</string>
+    <string name="total_order">Total order:</string>
+    <string name="clear_order">Clear all order</string>
+    <string name="clear_all_order">Are you sure want to clear your all order?</string>
+	<string name="clear_one_order">Are you sure want to clear this order?</string>
+	<string name="db_exist_alert">Do you want to remove your previous order?</string>
+	<string name="confirm">Confirm</string>
+	<string name="reservation">Reservation</string>
+	<string name="your_name">Your name</string>
+	<string name="number_of_people">Number of people</string>
+	<string name="date">Click to set date</string>
+	<string name="time">Click to set time</string>
+	<string name="phone_number">Phone number</string>
+	<string name="order_list">Order list</string>
+	<string name="send_reservation">Send reservation</string>
+	<string name="form_alert">Please, complete the form first.</string>
+	<string name="sending_alert">Sending data. Please wait &#8230;</string>
+	<string name="ok_alert">Reservation has been successfully sent.</string>
+	<string name="failed_alert">Reservation has not been sent.</string>
+	<string name="no_order">No order yet.</string>
+	<string name="order_alert">You have not ordered yet</string>
+	<string name="add_comment">Comment(optional)</string>
+	
+	<!-- Facebook and Twitter configuration -->
+	<string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
+	<string name="twitter_consumer_key">YOUR_TWITTER_CONSUMER_KEY</string>
+	<string name="twitter_secret_key">YOUR_TWITTER_SECRET_KEY</string>
+	
+	<!-- Contact configuration -->
+	<string name="latitude">-6.208992</string>
+	<string name="longitude">106.844775</string>
+	<string name="restaurant_name">Ali Pizza Store</string>
+	<string name="address">Street No. 21, Dreamland 20200</string>
+	<string name="phone">1&#8211;111 222 333</string>
+	<string name="email">store@alipizza.com</string>
+	
+	<!-- News configuration -->
+	<string name="feedurl">http://feeds.feedburner.com/MobileTuts?format=xml</string>
+	
+	<string name="check_order_later">Check if you want to order later</string>
+	<string name="order_later">#Order later</string>
+	<string name="no_order_menu">No order,</string>
+	<string name="add_fav">Add to Favorites</string>
+	<string name="extra_onion">With Onion (3 USD)</string>
+	<string name="extra_olives">With Olives (1.5 USD)</string>
+	<string name="extra_bacon">With Bacon (4 USD)</string>
+	<string name="extra_pinaples">With Pinaple (5 USD)</string>
+	<string name="title_customize">Customize your Pizza!</string>
+	<string name="extra_cheese">With Extra Cheese (2 USD)</string>
+	<string name="menu_image">Menu Image</string>
+	<string name="icon_back">Back</string>
+	<string name="quantity">Quantity</string>
+	<string name="rdbSizeLarge">Large</string>
+	<string name="rdbSizeXXL">XXL</string>
+	<string name="Medium">rdbSizeMedium</string>
+	<string name="rdbSizeMedium">Medium</string>
+	<string name="rdbSizeSmall">Small</string>
+	<string name="btn_fav_remove">Remove from Favorites</string>
+	<string name="lblSize">Size</string>
+	<string name="lblCustomization">Customization</string>
+	<string name="price_extra_onion">3</string>
+	<string name="price_extra_olives">1.5</string>
+	<string name="price_extra_bacon">4</string>
+	<string name="price_extra_pinaple">5</string>
+	<string name="price_extra_cheese">2</string>
+	<string name="toast_order_detail_ok">The meal was successfuly added to your invoice</string>
+	<string name="invoice_checkout">Checkout</string>
+	<string name="invoicing_payment_method">Payment Method</string>
+	<string name="toast_checkout_ok">Your order has been received by the restaurant. You can follow its status on your Orders History.</string>
+	
+</resources>

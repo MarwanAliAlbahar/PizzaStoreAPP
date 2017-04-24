@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_top_img" >
+
+    <RelativeLayout 
+        android:id="@+id/lytTitlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/titlebar_background"
+        android:layout_alignParentTop="true">
+        <TextView 
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text"
+            android:text="@string/app_name"
+            android:shadowColor="@color/shadow"
+	        android:shadowDx="1.0"
+	        android:shadowDy="1.0"
+	        android:shadowRadius="1.0"
+	        android:layout_marginLeft="15dp"
+	        android:layout_centerVertical="true"/>
+
+        <ImageButton
+            android:id="@+id/imgNews"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgContact"
+            android:background="@drawable/button_top_style_2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/news"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/imgContact"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imgSetting"
+            android:background="@drawable/button_top_style_2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/contact"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/imgSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_top_style_2"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/setting"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtTitle"
+            android:layout_alignBottom="@+id/txtTitle"
+            android:layout_alignLeft="@+id/imgContact"
+            android:layout_marginLeft="14dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:shadowColor="@color/shadow"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="0.5"
+            android:text="Logout"
+            android:textColor="@color/text"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout 
+        android:id="@+id/lytContent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/lytTitlebar"
+        android:layout_above="@+id/txtCopyright">
+        <ImageView 
+            android:id="@+id/imgCover"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/cover_image"
+            android:scaleType="centerCrop"/>
+
+        <TextView 
+            android:id="@+id/txtCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/caption"
+            android:textColor="@color/text"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/main_menu"
+            android:paddingLeft="15dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+        <ListView 
+            android:id="@+id/listMainMenu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fadeScrollbars="true"
+            android:divider="@color/background"
+			android:dividerHeight="2dip"/>
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/txtCopyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/copyright"
+        android:textSize="14sp"
+        android:text="@string/copyright"
+        android:paddingTop="7dp"
+        android:paddingBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
